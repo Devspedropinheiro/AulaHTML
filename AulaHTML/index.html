@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Pedro Pinheiro</title>
+    <link rel="icon" type="image/png" href="favicom/curriculo.png">
+    <style>
+        /* Aqui começam os estilos CSS, que controlam como a página fica bonita */
+        body {
+            /* O 'body' é o corpo da página inteira. Aqui definimos a aparência geral */
+            font-family: Arial, sans-serif; /* Escolhe a fonte das letras, como Arial. 'sans-serif' significa sem 'pés' nas letras, para ficar limpo */
+            background-color: #e8f5e8; /* Cor de fundo da página, um verde bem clarinho */
+            margin: 0; /* Remove margens externas da página */
+            padding: 30px; /* Espaço interno ao redor do conteúdo, como uma borda invisível */
+            color: #333; /* Cor do texto padrão, um cinza escuro */
+        }
+        .container {
+            /* '.container' é uma classe que agrupa o conteúdo principal, como uma caixa */
+            max-width: 800px; /* Largura máxima da caixa, para não ficar muito larga em telas grandes */
+            margin: 0 auto; /* Centraliza a caixa na página (0 cima/baixo, auto esquerda/direita) */
+            background-color: white; /* Fundo branco para a caixa */
+            padding: 30px; /* Espaço interno dentro da caixa */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor da caixa para dar profundidade */
+            border-radius: 8px; /* Cantos arredondados da caixa */
+        }
+        .header {
+            /* Caixa que coloca a foto e o título lado a lado */
+            display: flex;
+            align-items: center; /* Alinha verticalmente a imagem e o título */
+            justify-content: center; /* Centraliza no horizontal */
+            gap: 20px; /* Espaço entre a foto e o texto */
+            flex-wrap: wrap; /* Permite quebrar em telas pequenas */
+            margin-bottom: 30px; /* Espaço embaixo do cabeçalho */
+        }
+        .profile-photo {
+            /* Estilo da foto do currículo */
+            width: 120px; /* Largura da foto */
+            height: 120px; /* Altura da foto */
+            border-radius: 50%; /* Faz a foto ficar redonda */
+            object-fit: cover; /* Ajusta a imagem para não deformar */
+            border: 3px solid #4caf50; /* Borda verde parecida com os links */
+        }
+        h1 {
+            /* 'h1' é o título principal, como o nome do currículo */
+            color: #2e7d32; /* Cor verde escura para o título */
+            text-align: center; /* Alinha o texto no centro */
+            margin: 0; /* Remove margem para manter no mesmo bloco que a foto */
+            font-size: 2.5em; /* Tamanho da fonte, maior que o normal (2.5 vezes) */
+        }
+        h2 {
+            /* 'h2' são os subtítulos, como 'Dados Pessoais' */
+            color: #388e3c; /* Cor verde média para os subtítulos */
+            border-bottom: 2px solid #c8e6c9; /* Linha verde clara embaixo do subtítulo */
+            padding-bottom: 10px; /* Espaço entre o texto e a linha */
+            margin-top: 40px; /* Espaço em cima do subtítulo */
+            margin-bottom: 20px; /* Espaço embaixo do subtítulo */
+            font-size: 1.8em; /* Tamanho da fonte, um pouco maior */
+        }
+        p {
+            /* 'p' são os parágrafos, como o endereço e telefone */
+            line-height: 1.6; /* Altura da linha, para o texto não ficar apertado */
+            margin: 10px 0; /* Espaço em cima e embaixo de cada parágrafo */
+            font-size: 1.1em; /* Tamanho da fonte, um pouco maior que o padrão */
+        }
+        a {
+            /* 'a' são os links, como o email e GitHub */
+            color: #4caf50; /* Cor verde para os links */
+            text-decoration: none; /* Remove o sublinhado padrão dos links */
+            font-weight: bold; /* Deixa o texto dos links em negrito */
+        }
+        a:hover {
+            /* ':hover' é quando o mouse passa sobre o link */
+            text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+        }
+        hr {
+            /* 'hr' é a linha horizontal que separa seções */
+            border: none; /* Remove a borda padrão */
+            border-top: 1px solid #c8e6c9; /* Adiciona uma linha verde clara no topo */
+            margin: 30px 0; /* Espaço em cima e embaixo da linha */
+        }
+        .highlight {
+            /* Classe para destacar texto específico, como frases importantes */
+            color: #4caf50; /* Cor verde igual aos links */
+        }
+        ul {
+            /* 'ul' é a lista não ordenada, usada para listar habilidades */
+            color: #388e3c; /* Cor verde média para os itens da lista */
+            font-size: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="favicom/WhatsApp Image 2026-03-01 at 18.18.11.jpeg" alt="Foto de Pedro Pinheiro" class="profile-photo">
+            <h1>Currículo - Pedro Pinheiro</h1>
+        </div>
+        
+        <h2>Dados Pessoais</h2>
+                <p><b>Rua: </b>Número 04</p>
+                <p><b>Cidade:</b>Amparo-SP</p>
+                <p><b>Telefone:</b>19-978255298</p>
+                <p><b>Email profissional:</b> <a href="mailto:pedropinheiro.devs@gmail.com">pedropinheiro.devs@gmail.com</a></p>
+                <p><b>Email pessoal:</b> <a href="mailto:pedrinhopinheiro2008@gmail.com">pedrinhopinheiro2008@gmail.com</a></p>
+        
+        <h2>Formação acadêmica</h2>
+                <p><b>Ariosto Ribeiro Persicano: </b><span class="highlight"><b>Ensino Médio Completo</b></span></p>
+                <p><b>Cursando Desenvolvimento de Software multiplataforma</b></p>
+        
+        <h2>Experiência profissional</h2>
+             <p>
+                <b>Aprendiz em Manutenção</b><br>
+                <b>Empresa:</b> Quimica Amparo YPÊ<br>
+                <b>Período:</b> 2024-2025<br>
+                <b>Atividades:</b> Responsável por gerenciar planilhas com informações sobre as manutenções realizadas, cadastrar as atividades realizadas, organizar os arquivos de manutenção, auxiliar na organização do almoxarifado e realizar a limpeza e organização da área de trabalho. Também participei de treinamentos sobre segurança do trabalho, uso de equipamentos de proteção individual (EPIs) e procedimentos de emergência, o que me proporcionou uma compreensão sólida das práticas de segurança no ambiente industrial. Essa experiência me permitiu desenvolver habilidades organizacionais, atenção aos detalhes e a capacidade de trabalhar em equipe, além de me familiarizar com os processos de manutenção e a importância da segurança no ambiente de trabalho. Utilizei o sistema SAP para registrar atividades e acessar informações relevantes para as tarefas diárias, o que me proporcionou uma experiência prática com sistemas de gestão empresarial. Essa vivência me permitiu aprimorar minhas habilidades em organização, atenção aos detalhes e trabalho em equipe, além de me familiarizar com os processos de manutenção e a importância da segurança no ambiente de trabalho. Dentro do sistema SAP, utilizei a extensão SAP MDG, cadastrando peças de novos equipamentos, colsuntando informações sobre peças e equipamentos, e gerenciando dados.
+            </p>
+        <h2>Habilidades técnicas</h2>
+                <p><b>Programação:</b> HTML, CSS</p>
+                <p><b>Ferramentas de desenvolvimento:</b> Visual Studio Code</p>
+                <p><b>Outras habilidades técnicas:</b></p>
+                    <ul>
+                        <li>Microsoft Excel</li>
+                        <li>SAP</li>
+                        <li>Microsoft Power Point</li>
+                        <li>Microsoft Word</li>
+                        <li>Canva</li>
+                        <li>Google Drive</li>
+                        <li>Hardware</li>
+                        <li>Manutenção de computadores</li>
+                    </ul>
+        <h2>Habilidades interpessoais</h2>
+                <p><b>Outras habilidades:</b> Organização, atenção aos detalhes, trabalho em equipe, comunicação eficaz, proatividade, pensamento crítico, determinação, criatividade, responsabilidade.</p>
+                    <a href="https://github.com/Devspedropinheiro">Clique aqui para acessar meu GitHub</a><br>
+                    <a href="contato.html" target="_blank">Clique aqui para acessar minha página de contato</a>
+    </div>
+</body>
+</html>
