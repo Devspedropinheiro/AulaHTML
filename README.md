@@ -1,10 +1,7 @@
-#Meu currículo
-
-
----
+# Meu currículo
 
 <!-- trilha-de-estudos -->
-## Trilha de estudos
+## Estudos de HTML e CSS
 
 # Estudos de HTML e CSS
 
