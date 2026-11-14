@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #182230; font: 1rem/1.6 Arial, sans-serif; }
+header { padding: 64px max(24px, calc((100% - 960px) / 2)); background: #e5efff; }
+main { max-width: 960px; margin: 40px auto; padding: 0 24px; }
+.botao { display: inline-block; padding: 10px 16px; border-radius: 8px; background: #2458b8; color: white; text-decoration: none; }
+.grade { display: flex; gap: 16px; flex-wrap: wrap; }
+article { flex: 1 1 220px; padding: 20px; border: 1px solid #cbd5e1; border-radius: 12px; }
+@media (max-width: 600px) { header { padding-top: 40px; padding-bottom: 40px; } }
